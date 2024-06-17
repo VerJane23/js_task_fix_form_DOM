@@ -1,0 +1,2 @@
+document.querySelectorAll("input").forEach(function(e){var t=e.getAttribute("name"),a=e.getAttribute("id"),l=t.charAt(0).toUpperCase()+t.slice(1),r=l.includes("Name")?l.replace("Name"," Name"):l,c=document.createElement("label");c.setAttribute("class","field-label"),c.setAttribute("for",a),c.textContent=r,e.setAttribute("placeholder",r),e.parentNode.appendChild(c)});
+//# sourceMappingURL=index.d486398d.js.map
